@@ -10,7 +10,7 @@ export default defineConfig({
       name: 'My-Application',
       remotes: {
         'FooterApp': 'https://naveen-vite-footer.netlify.app/assets/footerremoteentry.js',
-        'HeaderApp': 'https://naveen-vite-header.netlify.app/assets/headerremoteentry.js',
+        'HeaderApp': 'https://naveen-vite-application-header.netlify.app/assets/headerremoteentry.js',
         'MainContentApp': 'https://naveen-vite-maincontent.netlify.app/assets/maincontentremoteentry.js',
       },
       shared: {
