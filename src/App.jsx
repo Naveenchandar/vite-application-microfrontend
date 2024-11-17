@@ -1,8 +1,8 @@
 import { Suspense } from 'react'
 import './App.css'
-import { Footer } from './components/footer'
+// import { Footer } from './components/footer'
 import { Header } from './components/header'
-import { MainContent } from './components/maincontent'
+// import { MainContent } from './components/maincontent'
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
   return (
     <Suspense fallback="Loading...">
       <Header />
-      <MainContent />
-      <Footer />
+      {/* <MainContent /> */}
+      {/* <Footer /> */}
     </Suspense>
   )
 }

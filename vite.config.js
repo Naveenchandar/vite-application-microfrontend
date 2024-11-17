@@ -9,9 +9,9 @@ export default defineConfig({
     federation({
       name: 'My-Application',
       remotes: {
-        'FooterApp': 'https://naveen-vite-footer.netlify.app/assets/footerremoteentry.js',
-        'HeaderApp': 'https://naveen-vite-applicationh.netlify.app/assets/headerremoteentry.js',
-        'MainContentApp': 'https://naveen-vite-maincontent.netlify.app/assets/maincontentremoteentry.js',
+        // 'FooterApp': 'https://naveen-vite-footer.netlify.app/assets/footerremoteentry.js',
+        'HeaderApp': 'https://vite-application-header-1icoy0lvz-naveenchandars-projects.vercel.app/assets/headerRemoteEntry.js',
+        // 'MainContentApp': 'https://naveen-vite-maincontent.netlify.app/assets/maincontentremoteentry.js',
       },
       shared: {
         'react': {
