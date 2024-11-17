@@ -44,5 +44,8 @@ export default defineConfig({
       //   changeOrigin: true,
       // },
     },
+  },
+  preview: {
+    cors: true
   }
 })
